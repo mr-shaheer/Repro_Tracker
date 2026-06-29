@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-0.17.6-412991?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/E2B-Sandbox-FF6B35?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/SQLite-Session_Store-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/License-Unlicensed-lightgrey?style=for-the-badge" />
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 
 # 🐛 Repro Tracker
 
@@ -283,7 +283,7 @@ Contributions are welcome — bug fixes, new tools, or new agent types.
 
 ## 📄 License
 
-This project is currently **unlicensed**. Add a `LICENSE` file before open-sourcing.
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
