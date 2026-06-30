@@ -4,8 +4,10 @@ from uuid import uuid4
 from dotenv import load_dotenv
 from core_agents.triage_agent import triage_agent, TRIAGE_MAX_TURNS
 from core_agents.repro_agent import repro_agent, REPRO_MAX_TURNS
+
 from agents.sandbox import SandboxRunConfig
 from agents.extensions.sandbox import E2BSandboxClient, E2BSandboxClientOptions, E2BSandboxType
+
 from agents.exceptions import InputGuardrailTripwireTriggered
 from agents.stream_events import RawResponsesStreamEvent, RunItemStreamEvent
 from agents import RunResultStreaming, Runner, RunConfig, SQLiteSession, SessionSettings
@@ -44,8 +46,6 @@ async def main() -> None:
 
         if user_input.lower() == "/exit":
             break
-        if not user_input :
-            continue
 
         print("Assistant : ", end = "", flush = True) 
 
